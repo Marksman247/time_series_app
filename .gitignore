@@ -1,0 +1,15 @@
+# Ignore system files
+.DS_Store
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore virtual environments
+venv/
+env/
+test_env/
+timeseries_env/
+
+# Ignore VSCode settings
+.vscode/
