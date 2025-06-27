@@ -1,15 +1,53 @@
-# Ignore system files
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Local environment variables
+.env
+
+# Streamlit specific cache
+.streamlit/
+
+# IDE files
+.vscode/
+.idea/
+
+# Mac system files
 .DS_Store
 
-# Ignore Python cache files
-__pycache__/
-*.pyc
+# Log files
+*.log
 
-# Ignore virtual environments
-venv/
-env/
-test_env/
-timeseries_env/
+# Python egg metadata
+*.egg-info/
 
-# Ignore VSCode settings
-.vscode/
+# Build directories
+build/
+dist/
+
+# CSV/Excel or other test data
+*.csv
+*.xlsx
+
+# Any test folders
+/testenv/
+
+# Ignore requirements files backup
+requirements*.bak
+
+# System files
+Thumbs.db
